@@ -92,4 +92,4 @@ def largest_prime_factor(n):
       return max(factor, n)
   print(n)
 
-largest_prime_factor(600851475143)
+largest_prime_factor(600851475143) # This is overly complicated because I mostly copied this from a code I already wrote for general prime factorization using the Lenstra ECM method
