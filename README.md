@@ -1,4 +1,4 @@
-# Euler
+# ProjectEuler
 
 ## About
 
