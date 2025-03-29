@@ -11,3 +11,14 @@
 # Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640.
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 # """
+
+def sum_square_diff(x):
+  sum_squares = 0
+  square_sum = 0
+  for item in x:
+    sum_squares += (item * item)
+    square_sum += item # Temporarily assigning the sum instead of making a new variable
+  square_sum = square_sum * square_sum
+  return square_sum - sum_squares
+
+sum_square_diff(list(range(1,101)))
