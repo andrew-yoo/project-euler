@@ -8,22 +8,22 @@ I am currently (3/25) learning python as my first language, but I may experiment
 
 ## Checklist
 
-Runtime averages (in seconds) over 5 trials.
-| Problem | Python runtime | 
-| :--- | --- |
-| 1 | 0.0010 |
-| 2 | 0.0017 |
-| 3 | 0.0052 |
-| 4 | 0.8625 |
-| 5 | 0.0015 |
-| 6 | 0.0004 |
-| 7 | 0.0187 |
-| 8 | 0.0093 |
-| 9 | 0.0014 |
-| 10 | 0.3752 |
-| 11 | |
-| 12 | 3.4479 |
-| 13 | 0.0006 |
+Averages (in seconds) over 5 trials.
+| Problem | Python runtime | Rust compile time |
+| :--- | --- | --- |
+| 1 | 0.0010 | 0.62 |
+| 2 | 0.0017 | |
+| 3 | 0.0052 | |
+| 4 | 0.8625 | |
+| 5 | 0.0015 | |
+| 6 | 0.0004 | |
+| 7 | 0.0187 | |
+| 8 | 0.0093 | |
+| 9 | 0.0014 | |
+| 10 | 0.3752 | |
+| 11 | | |
+| 12 | 3.4479 | |
+| 13 | 0.0006 | |
 
 
 ## Disclaimer
