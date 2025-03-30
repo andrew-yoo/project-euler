@@ -18,7 +18,7 @@ Runtime averages (in seconds) over 5 trials. Doubles as checklist.
 | 7 | 0.0187 |
 | 8 | 0.0093 |
 | 9 | 0.0014 |
-| 10 | |
+| 10 | 0.3752 |
 | 11 | |
 
 
