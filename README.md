@@ -9,8 +9,8 @@ I am primarily (3/25) learning python as my first language, but I may play aroun
 ## Checklist
 
 Averages (in seconds) over 5 trials.
-| Problem | Python runtime | Rust compile time |
-| :--- | --- | --- |
+| Problem | Python runtime | Rust compile time | Notes |
+| :--- | --- | --- | --- |
 | 1 | 0.0010 | 0.62 |
 | 2 | 0.0017 | |
 | 3 | 0.0052 | |
@@ -24,6 +24,8 @@ Averages (in seconds) over 5 trials.
 | 11 | | |
 | 12 | 3.4479 | |
 | 13 | 0.0006 | |
+| 14 | | |
+| 15 | 6.8226 | | <sub> Slow because of directional adj. matrices (for generality)—can probably be improved with permutations. </sub> |
 
 
 ## Disclaimer
