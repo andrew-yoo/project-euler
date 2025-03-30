@@ -2,7 +2,7 @@
 
 ## About
 
-My solutions to the [Project Euler](https://projecteuler.net/) problems used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). This repository is meant for me to track my personal progress, but feel free to take a look around. All code is original and often represents my first successful script; e.g., not particularly optimized or elegant.
+My solutions to the [Project Euler](https://projecteuler.net/) problems used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). This repository is meant for me to track my personal progress, but feel free to take a look around. All code is original and often represents my first successful solution; e.g., do not expect particularly optimized or elegant scripts.
 
 I am currently (3/25) learning python as my first language, but I may experiment with others in the future.
 
