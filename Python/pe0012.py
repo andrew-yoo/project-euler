@@ -17,3 +17,25 @@
 # We can see that 28 is the first triangle number to have over five divisors.
 # What is the value of the first triangle number to have over five hundred divisors?
 # """
+
+import math
+
+def generate_triangular_numbers(number):
+    triangular_numbers = []
+    for x in range(1, number + 1):
+        triangular_numbers.append(int((x * (x + 1)) / 2))
+    return triangular_numbers
+
+triangular_numbers = generate_triangular_numbers(12500) # Increase for larger min_divisor's
+
+def check_divisor(min_divisor, triangular_numbers):
+    for item in triangular_numbers:
+        factors = 0
+        for y in range(1, int(math.sqrt(item))):
+            if item % y == 0:
+                factors += 2 if y != item // y else 1  # Bug fixed — needed to double count some divisors
+        if factors > min_divisor:
+            return item
+            break
+
+print(check_divisor(500, triangular_numbers))
