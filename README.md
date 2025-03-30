@@ -25,7 +25,7 @@ Averages (in seconds) over 5 trials.
 | 12 | 3.4479 | |
 | 13 | 0.0006 | |
 | 14 | | |
-| 15 | 6.8226 | | <sub> Slow because of directional adj. matrices (for generality)—can probably be improved with permutations. </sub> |
+| 15 | 6.8226 | | <sub> Slow because of the directional adj. matrices (used for generality). </sub> |
 
 
 ## Disclaimer
