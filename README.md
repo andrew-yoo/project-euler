@@ -8,10 +8,10 @@ Currently focusing on python solutions.
 
 ## Checklist
 
-Averages runtime/compile time (in seconds) over 5 trials.
-| Problem | Python | Rust | Notes |
+Averages runtime (in seconds) over 5 trials.
+| Problem | Python | MATLAB | Notes |
 | :--- | --- | --- | --- |
-| 1 | 0.0010 | 0.62 |
+| 1 | 0.0010 | 0.0386 |
 | 2 | 0.0017 | |
 | 3 | 0.0052 | |
 | 4 | 0.8625 | |
