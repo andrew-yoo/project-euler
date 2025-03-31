@@ -8,7 +8,7 @@ Currently focusing on python solutions.
 
 ## Checklist
 
-Averages runtime (in seconds) over 5 trials.
+Average Google Colab runtimes (in seconds) over 5 trials.
 | Problem | Python | MATLAB | Notes |
 | :--- | --- | --- | --- |
 | 1 | 0.0010 | 0.0386 | |
