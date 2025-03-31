@@ -8,7 +8,7 @@
 % Find the sum of all the multiples of 3 or 5 below 1000.
 % " 
 
-sum = 0
+sum = 0;
 
 for x = 1:999
     if(mod(x,3) == 0 || mod(x,5) == 0)
