@@ -26,6 +26,7 @@ Average runtimes, in seconds, over 5 trials.
 | 13 | 0.0006 | | |
 | 14 | 15.3050 | | |
 | 15 | 6.8226 | | <sub> Slow because of the directional adj. matrices (used for generality) </sub> |
+| 16 | 0.0004 | | |
 
 
 ## Disclaimer
