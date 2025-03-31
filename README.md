@@ -21,7 +21,7 @@ Average runtimes (Google Colab used for Python measurements), in seconds, over 5
 | 8 | 0.0093 | | |
 | 9 | 0.0014 | | |
 | 10 | 0.3752 | | |
-| 11 | | | |
+| 11 | 0.0102 | | |
 | 12 | 3.4479 | | |
 | 13 | 0.0006 | | |
 | 14 | 15.3050 | | |
