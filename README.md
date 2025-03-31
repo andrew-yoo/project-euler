@@ -8,8 +8,8 @@ Currently focusing on python solutions.
 
 ## Checklist
 
-Averages (in seconds) over 5 trials.
-| Problem | Python runtime | Rust compile time | Notes |
+Averages runtime/compile time (in seconds) over 5 trials.
+| Problem | Python | Rust | Notes |
 | :--- | --- | --- | --- |
 | 1 | 0.0010 | 0.62 |
 | 2 | 0.0017 | |
