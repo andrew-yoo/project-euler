@@ -28,7 +28,7 @@ Average runtimes, in seconds, over 5 trials.
 | 15 | 6.8226 | | <sub> Slow because of the directional adj. matrices (used for generality) </sub> |
 | 16 | 0.0004 | | |
 | 17 | 0.0052 | 0.2898 | <sub> Cheesed with num2words solution in MATLAB </sub> |
-| 18 | | | |
+| 18 | 0.0015 | | <sub> Couldn't figure out the "clever method"—used brute force </sub>|
 | 19 | | | |
 | 20 | | | |
 
