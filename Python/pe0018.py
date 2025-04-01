@@ -51,6 +51,6 @@ def max_path(tri):
     for a in range(len(copy) - 2, -1, -1): # Bottom (second-to-last) up
         for b in range(len(copy[a])):
             copy[a][b] += max(copy[a + 1][b], copy[a + 1][b + 1])
-    return copy[0][0]
+    return copy[0]
 
 print(max_path(tri))
