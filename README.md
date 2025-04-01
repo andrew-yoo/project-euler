@@ -31,6 +31,7 @@ Average runtimes, in seconds, over 5 trials.
 | 18 | 0.0015 | | <sub> Couldn't figure out the "clever method" (probably means recursion)—so used brute force </sub>|
 | 19 | | | |
 | 20 | 0.0005 | | |
+| 21 | | 55.4553 | |
 
 
 ## Disclaimer
