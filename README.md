@@ -30,7 +30,7 @@ Average runtimes, in seconds, over 5 trials.
 | 17 | 0.0052 | 0.2898 | <sub> Cheesed with num2words solution in MATLAB </sub> |
 | 18 | 0.0015 | | <sub> Couldn't figure out the "clever method" (probably means recursion)—so used brute force </sub>|
 | 19 | | | |
-| 20 | | | |
+| 20 | 0.0005 | | |
 
 
 ## Disclaimer
