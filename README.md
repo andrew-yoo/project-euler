@@ -9,35 +9,38 @@ Mainly solving with Python, unless the problem seems easier with MATLAB.
 ## Checklist
 
 Average runtimes, in seconds, over 5 trials.
-| Problem | Python | MATLAB | Notes |
-| :--- | --- | --- | --- |
-| 1 | 0.0010 | 0.0386 | |
-| 2 | 0.0017 | | |
-| 3 | 0.0052 | | |
-| 4 | 0.8625 | | |
-| 5 | 0.0015 | | |
-| 6 | 0.0004 | | |
-| 7 | 0.0187 | | |
-| 8 | 0.0093 | | |
-| 9 | 0.0014 | | |
-| 10 | 0.3752 | | |
-| 11 | 0.0102 | | |
-| 12 | 3.4479 | | |
-| 13 | 0.0006 | | |
-| 14 | 15.3050 | | |
-| 15 | 6.8226 | | <sub> Slow because of the directional adj. matrices (used for generality) </sub> |
-| 16 | 0.0004 | | |
-| 17 | 0.0052 | 0.2898 | <sub> Cheesed with num2words solution in MATLAB </sub> |
-| 18 | 0.0015 | | <sub> Couldn't figure out the "clever method" (probably means recursion)—so used brute force </sub>|
-| 19 | 0.0009 | | |
-| 20 | 0.0005 | | |
-| 21 | | 55.4553 | |
-| 22 | 0.2799 | | |
-| 23 | 0.7057 | | |
-| 24 | 0.8760 | | |
-| 25 | 0.0385 | | |
-| 26 | 0.0362 | | |
-| 27 | 3.1729 | | |
+| Problem | Name | Python | MATLAB |
+| :--- | :--- | ---: | ---: |
+| 1 |	Multiples of 3 or 5                           |0.0010 | 0.0386 | |
+| 2 | Even Fibonacci Numbers                        | 0.0017 | | |
+| 3 | Largest Prime Factor                          | 0.0052 | | |
+| 4 |	Largest Palindrome Product                    | 0.8625 | | |
+| 5 | Smallest Multiple                             | 0.0015 | | |
+| 6 |	Sum Square Difference                         | 0.0004 | | |
+| 7 | 10 001st Prime                                | 0.0187 | | |
+| 8 | Largest Product in a Series                   | 0.0093 | | |
+| 9 | Special Pythagorean Triplet                   | 0.0014 | | |
+| 10 | Summation of Primes                          | 0.3752 | | |
+| 11 | Largest Product in a Grid                    | 0.0102 | | |
+| 12 | Highly Divisible Triangular Number           | 3.4479 | | |
+| 13 | Large Sum                                    | 0.0006 | | |
+| 14 | Longest Collatz Sequence                     | 15.3050 | | |
+| 15 | Lattice Paths                                | 6.8226 | | |
+| 16 | Power Digit Sum                              | 0.0004 | | |
+| 17 | Number Letter Counts                         | 0.0052 | 0.2898 | |
+| 18 | Maximum Path Sum I                           | 0.0015 | | |
+| 19 | Counting Sundays                             | 0.0009 | | |
+| 20 | Factorial Digit Sum                          | 0.0005 | | |
+| 21 | Amicable Numbers                             | | 55.4553 | |
+| 22 | Names Scores                                 | 0.2799 | | |
+| 23 | Non-Abundant Sums                            | 0.7057 | | |
+| 24 | Lexicographic Permutations                   | 0.8760 | | |
+| 25 | 1000-digit Fibonacci Number                  | 0.0385 | | |
+| 26 | Reciprocal Cycles                            | 0.0362 | | |
+| 27 | Quadratic Primes                             | 3.1729 | | |
+| 28 | Number Spiral Diagonals                      | | | |
+| 29 | Distinct Powers                              | | | |
+| 30 | Digit Fifth Powers                           | | | |
 
 ## Disclaimer
 
