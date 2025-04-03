@@ -4,8 +4,6 @@
 
 My solutions to the [Project Euler](https://projecteuler.net/) problems used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). This repository is meant for me to track my personal progress, but feel free to take a look around. All code is original and often represents my first successful solution; e.g., do not expect particularly optimized or elegant scripts.
 
-Mainly solving with Python, unless the problem seems easier with MATLAB.
-
 ## Checklist
 
 Average runtimes, in seconds, over 5 trials.
