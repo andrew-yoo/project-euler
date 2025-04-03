@@ -38,7 +38,7 @@ Average runtimes, in seconds, over 5 trials.
 | 25 | 1000-digit Fibonacci Number                  | 0.0385 | | |
 | 26 | Reciprocal Cycles                            | 0.0362 | | |
 | 27 | Quadratic Primes                             | 3.1729 | | |
-| 28 | Number Spiral Diagonals                      | | | |
+| 28 | Number Spiral Diagonals                      | 0.3764 | | |
 | 29 | Distinct Powers                              | | | |
 | 30 | Digit Fifth Powers                           | | | |
 
