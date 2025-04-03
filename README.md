@@ -37,6 +37,7 @@ Average runtimes, in seconds, over 5 trials.
 | 24 | 0.8760 | | |
 | 25 | 0.0385 | | |
 | 26 | 0.0362 | | |
+| 27 | 3.1729 | | |
 
 ## Disclaimer
 
