@@ -9,12 +9,12 @@ My solutions to the [Project Euler](https://projecteuler.net/) problems used und
 Average runtimes, in seconds, over 5 trials.
 | Problem | Name | Python | MATLAB |
 | :--- | :--- | ---: | ---: |
-| 1 |	Multiples of 3 or 5                           |0.0010 | 0.0386 | |
-| 2 | Even Fibonacci Numbers                        | 0.0017 | | |
-| 3 | Largest Prime Factor                          | 0.0052 | | |
-| 4 |	Largest Palindrome Product                    | 0.8625 | | |
-| 5 | Smallest Multiple                             | 0.0015 | | |
-| 6 |	Sum Square Difference                         | 0.0004 | | |
+| 1 |	Multiples of 3 or 5                           | 0.0002 | 0.0386 | |
+| 2 | Even Fibonacci Numbers                        | 0.0001 | | |
+| 3 | Largest Prime Factor                          | 0.0381 | | |
+| 4 |	Largest Palindrome Product                    | 0.4898 | | |
+| 5 | Smallest Multiple                             | 0.0002 | | |
+| 6 |	Sum Square Difference                         | 0.0001 | | |
 | 7 | 10 001st Prime                                | 0.0187 | | |
 | 8 | Largest Product in a Series                   | 0.0093 | | |
 | 9 | Special Pythagorean Triplet                   | 0.0014 | | |
