@@ -6,7 +6,7 @@ My solutions to the [Project Euler](https://projecteuler.net/) problems used und
 
 ## Checklist
 
-Average runtimes, in seconds, over 5 trials (very rough estimates, only intended to verify that solutions are under Project Euler's one minute runtime limit.
+Average runtimes, in seconds, over 5 trials. These are very rough estimates and only intended to verify that solutions are under Project Euler's one minute runtime limit.
 | Problem | Name | Python | MATLAB |
 | :--- | :--- | ---: | ---: |
 | 1 |	Multiples of 3 or 5                           | 0.0002 | 0.0386 | |
