@@ -38,7 +38,27 @@ Average runtimes, in seconds, over 5 trials. These are very rough estimates and 
 | 27 | Quadratic Primes                             | 3.1729 | | |
 | 28 | Number Spiral Diagonals                      | 0.3764 | | |
 | 29 | Distinct Powers                              | 0.0085 | | |
-| 30 | Digit Fifth Powers                           | | | |
+| 30 | Digit Fifth Powers                           | 0.2786 | | |
+| 31 | Coin Sums                                    | | | |
+| 32 | Pandigital Products                          | | | |
+| 33 | Digit Cancelling Fractions                   | | | |
+| 34 | Digit Factorials                             | | | |
+| 35 | Circular Primes                              | | | |
+| 36 | Double-base Palindromes                      | | | |
+| 37 | Truncatable Primes                           | | | | 
+| 38 | Pandigital Multiples                         | | | |
+| 39 | Integer Right Triangles                      | | | |
+| 40 | Champernowne's Constant                      | | | |
+| 41 | Pandigital Prime                             | | | |
+| 42 | Coded Triangle Numbers                       | | | |
+| 43 | Sub-string Divisibility                      | | | |
+| 44 | Pentagon Numbers                             | | | |
+| 45 | Triangular, Pentagonal, and Hexagonal        | | | |
+| 46 | Goldbach's Other Conjecture                  | | | |
+| 47 | Distinct Primes Factors                      | | | |
+| 48 | Self Powers                                  | | | |
+| 49 | Prime Permutations                           | | | |
+| 50 | Consecutive Prime Sum                        | | | |
 
 ## Disclaimer
 
