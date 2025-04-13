@@ -13,3 +13,20 @@
 # 
 # Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
 # """
+
+def check_digit_power_sum(input_number,power):
+    digit_powers = []
+    input_string = str(input_number)
+    for digit in range(len(input_string)):
+        digit_powers.append(int(input_string[digit]) ** power)
+    if sum(digit_powers) == input_number:
+        return(True)
+    else:
+        return(False)
+
+number_sum = 0
+for x in range(2,200000): # Upper bound can be adjusted
+    if check_digit_power_sum(x,5) == True:
+        number_sum += x
+
+print(number_sum)
