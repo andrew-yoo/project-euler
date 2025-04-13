@@ -6,7 +6,7 @@ My solutions to the [Project Euler](https://projecteuler.net/) problems used und
 
 ## Checklist
 
-Average runtimes, in seconds, over 5 trials.
+Average runtimes, in seconds, over 5 trials (very rough estimates, only intended to verify that solutions are under Project Euler's one minute runtime limit.
 | Problem | Name | Python | MATLAB |
 | :--- | :--- | ---: | ---: |
 | 1 |	Multiples of 3 or 5                           | 0.0002 | 0.0386 | |
@@ -22,7 +22,7 @@ Average runtimes, in seconds, over 5 trials.
 | 11 | Largest Product in a Grid                    | 0.0102 | | |
 | 12 | Highly Divisible Triangular Number           | 3.4479 | | |
 | 13 | Large Sum                                    | 0.0006 | | |
-| 14 | Longest Collatz Sequence                     | 15.3050 | | |
+| 14 | Longest Collatz Sequence                     | 10.2695 | | |
 | 15 | Lattice Paths                                | 6.8226 | | |
 | 16 | Power Digit Sum                              | 0.0004 | | |
 | 17 | Number Letter Counts                         | 0.0052 | 0.2898 | |
