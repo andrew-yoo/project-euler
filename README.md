@@ -37,7 +37,7 @@ Average runtimes, in seconds, over 5 trials.
 | 26 | Reciprocal Cycles                            | 0.0362 | | |
 | 27 | Quadratic Primes                             | 3.1729 | | |
 | 28 | Number Spiral Diagonals                      | 0.3764 | | |
-| 29 | Distinct Powers                              | | | |
+| 29 | Distinct Powers                              | 0.0085 | | |
 | 30 | Digit Fifth Powers                           | | | |
 
 ## Disclaimer
