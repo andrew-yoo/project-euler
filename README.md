@@ -39,7 +39,7 @@ Average runtimes, in seconds, over 5 trials. These are very rough estimates and 
 | 28 | Number Spiral Diagonals                      | 0.3764 | | |
 | 29 | Distinct Powers                              | 0.0085 | | |
 | 30 | Digit Fifth Powers                           | 0.2786 | | |
-| 31 | Coin Sums                                    | | | |
+| 31 | Coin Sums                                    | 0.1616 | | |
 | 32 | Pandigital Products                          | | | |
 | 33 | Digit Cancelling Fractions                   | | | |
 | 34 | Digit Factorials                             | | | |
