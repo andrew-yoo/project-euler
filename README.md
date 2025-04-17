@@ -10,7 +10,7 @@ Average runtimes, in seconds, over 5 trials. These are very rough estimates and 
 | ID | Title | Python | MATLAB |
 | :--- | :--- | ---: | ---: |
 | 1 |	Multiples of 3 or 5                           | 0.0002 | 0.0386 | |
-| 2 | Even Fibonacci Numbers                        | 0.0001 | | |
+| 2 | Even Fibonacci Numbers                        | 0.0001 | 0.9204 | |
 | 3 | Largest Prime Factor                          | 0.0381 | | |
 | 4 |	Largest Palindrome Product                    | 0.4898 | | |
 | 5 | Smallest Multiple                             | 0.0002 | | |
