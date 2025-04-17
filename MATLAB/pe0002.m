@@ -9,3 +9,25 @@
 % By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 % """
 
+fib = [];
+
+var = 0; % Use as an index
+
+while true
+    nextFib = fibonacci(var);
+    if nextFib > 4000000
+        break;
+    end
+    fib(end + 1) = nextFib;
+    var = var + 1;
+end
+
+var = 0; % Reusing variable as sum
+
+for x = fib
+  if ~ mod(x,2)
+    var = var + x;
+  end
+end
+
+var
