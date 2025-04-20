@@ -13,3 +13,30 @@
 # If the product of these four fractions is given in its lowest common terms, find the value of the denominator.
 # """
 
+import math
+import fractions
+
+def check_curious(numerator, denominator):
+  if (int(denominator[0]) == 0 or int(denominator[1]) == 0) or (numerator[0] != denominator[1] and numerator[1] != denominator[0]) or (int(numerator) / int(denominator) != int(numerator[0]) / int(denominator[1]) and int(numerator) / int(denominator) != int(numerator[1]) / int(denominator[0])):
+    return(False)
+  elif int(numerator) / int(denominator) == int(numerator[0]) / int(denominator[1]) and int(numerator) / int(denominator) < 1:
+    return(True)
+  elif int(numerator) / int(denominator) == int(numerator[1]) / int(denominator[0]) and int(numerator) / int(denominator) < 1:
+    return(True)
+
+curious = []
+
+for x in range(10, 100):
+    for y in range(10, 100):
+        x_str = str(x).zfill(2)
+        y_str = str(y).zfill(2)
+
+        if check_curious(x_str, y_str) == True:
+          curious.append([int(x_str),int(y_str)])
+
+product = 1
+
+for z in range(len(curious)):
+  product *= fractions.Fraction(curious[z][0],curious[z][1])
+
+print(product.denominator)
