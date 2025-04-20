@@ -42,7 +42,7 @@ Average runtimes, in seconds, over 5 trials. These are very rough estimates and 
 | 31 | Coin Sums                                    | 0.1616 | | |
 | 32 | Pandigital Products                          | 11.2493 | | |
 | 33 | Digit Cancelling Fractions                   | 0.0077 | | |
-| 34 | Digit Factorials                             | | | |
+| 34 | Digit Factorials                             | 0.1309 | | |
 | 35 | Circular Primes                              | | | |
 | 36 | Double-base Palindromes                      | | | |
 | 37 | Truncatable Primes                           | | | | 
