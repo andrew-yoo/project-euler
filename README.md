@@ -41,7 +41,7 @@ Average runtimes, in seconds, over 5 trials. These are very rough estimates and 
 | 30 | Digit Fifth Powers                           | 0.2786 | | |
 | 31 | Coin Sums                                    | 0.1616 | | |
 | 32 | Pandigital Products                          | 11.2493 | | |
-| 33 | Digit Cancelling Fractions                   | | | |
+| 33 | Digit Cancelling Fractions                   | 0.0077 | | |
 | 34 | Digit Factorials                             | | | |
 | 35 | Circular Primes                              | | | |
 | 36 | Double-base Palindromes                      | | | |
