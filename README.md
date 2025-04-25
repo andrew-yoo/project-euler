@@ -6,7 +6,7 @@ My solutions to the [Project Euler](https://projecteuler.net/) problems ([CC BY-
 
 ## Checklist
 
-Below are runtime approximations (in seconds), intended solely to verify that solutions are under the 60s runtime limit.
+Below are runtime approximations (in seconds), intended solely to verify that solutions are under the 60s runtime limit. Doubles as a checklist.
 | ID | Title | Python | MATLAB |
 | :--- | :--- | ---: | ---: |
 | 1 |	Multiples of 3 or 5                           | 0.0002 | 0.0386 | |
