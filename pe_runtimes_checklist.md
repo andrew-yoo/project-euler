@@ -1,5 +1,5 @@
-# Solution Runtimes
-The following runtime approximations (in seconds) are included to ensure that solutions comply with Project Euler's "one-minute rule."
+# Checklist
+The following runtime approximations (in seconds) are included to ensure that solutions comply with Project Euler's "one-minute rule." Doubles as a checklist.
 
 | ID | Title | Python | MATLAB |
 | :--- | :--- | ---: | ---: |
