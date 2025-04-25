@@ -1,42 +1,42 @@
 # Project Euler Answers
-Answers are hashed with BLAKE2b-512 and encoded in base64.
+Answers are hashed with BLAKE2b-256 and encoded in base64.
 
 | ID | Title | Answer |
 | :--- | :--- | --- |
-| 1 |	Multiples of 3 or 5                           |```K+uSv8XNn7CwjZNt4HgP3LlBzvpH6LQBiB4D7Zmm1ulftgM20TOed35f5c0wqPuby9Wbxee/tU9M4LHzLXjQHw==```|
-| 2 | Even Fibonacci Numbers                        |```YAol7GJK+QcVwR5VK7mGHBiFfAzzRjXbOFPew75oMwU/66LXYpzCxfsCgsJRN9AHKfJklYEEE7Ftw+euY+hZzA==```|
-| 3 | Largest Prime Factor                          |```v+gfXQU6rFYpdbtLR6PNeoBNMj5zIqnaS4JUMub7hh7HrYbnls/I5ZCkeRw6rVvzoK3p6cY+4sfpi7xck7qF5g==```|
-| 4 |	Largest Palindrome Product                    |```9BSjoi2rvjeCeHalZ/xY4J164alkuAFKbulP+Gp5Nb7uSN9pf+K6jKTdk3EQl5/JH9aC/WnRKDCKlkcFAT0deg==```|
-| 5 | Smallest Multiple                             |```dqsr9T/QWBxop4fcQ7WdgLuWvPqlJRKLUiy+L+MgyL3eR+35+P3afkuUDnP9v/RyA53cdHx4TPq1lDbGD0uSTg==```|
-| 6 |	Sum Square Difference                         |```BZs2rxDRChXTN1CrkE0RyXVbLiXesCKwayDg9cdnwM4QEisFJ2z2vSqacsKsp/n5vd/CypLapEuYWIjp1/wftw==```|
-| 7 | 10 001st Prime                                |```wdCN57fjZ7reWG7c0QhqeCQU03vgnIiyC2WmxsYU59lMdATbf5GT6UA8aLsPJiiMMcdy5Gr+ZDggBocUnbKCWA==```|
-| 8 | Largest Product in a Series                   |```wpdYMgAIT02dw19JpNnlxX+3ZaYVcauEpN7INtryCarTY+i4nwntWPQ1MqqWF18Pr67ECJ0hHetFLhFJc2PWCw==```|
-| 9 | Special Pythagorean Triplet                   |```aKnKzq8RS83ljf66a9A0W8nmBpKj06OxAC6ZHv98n9nA+OFxPTngV1Q5rDYD7i6hBnJOHvo1RsJodbZYPafs0w==```|
-| 10 | Summation of Primes                          |```RO1AfESS7fYEit+XhJ1cCogA/xBF7PzTI/L2oFEPdU4Kt7YfFqGPCbvdLqLKhn7bONqXPGraipoazlYhg4jomw==```|
-| 11 | Largest Product in a Grid                    | |
-| 12 | Highly Divisible Triangular Number           | |
-| 13 | Large Sum                                    | |
-| 14 | Longest Collatz Sequence                     | |
-| 15 | Lattice Paths                                | |
-| 16 | Power Digit Sum                              | |
-| 17 | Number Letter Counts                         | |
-| 18 | Maximum Path Sum I                           | |  
-| 19 | Counting Sundays                             | |
-| 20 | Factorial Digit Sum                          | |
-| 21 | Amicable Numbers                             | |
-| 22 | Names Scores                                 | |
-| 23 | Non-Abundant Sums                            | |
-| 24 | Lexicographic Permutations                   | |
-| 25 | 1000-digit Fibonacci Number                  | |
-| 26 | Reciprocal Cycles                            | |
-| 27 | Quadratic Primes                             | |
-| 28 | Number Spiral Diagonals                      | |
-| 29 | Distinct Powers                              | |
-| 30 | Digit Fifth Powers                           | |
-| 31 | Coin Sums                                    | |
-| 32 | Pandigital Products                          | |
-| 33 | Digit Cancelling Fractions                   | |
-| 34 | Digit Factorials                             | |
+| 1 |	Multiples of 3 or 5                           |```CKaTfvFkajYguKz387BBkxOg22QzD+KNF+hLJNZFZ9E=```|
+| 2 | Even Fibonacci Numbers                        |```RaOjr8aWtYEMJVVTkAh4VraBtiM6NU3nD+Pd2Zu+2Gw=```|
+| 3 | Largest Prime Factor                          |```gP4pcXelNNS5+/tU9AXLOlz8kLtKLYWB9TvT93JRLu8=```|
+| 4 |	Largest Palindrome Product                    |```hU/gk/MwYvGSVH1ToDVhZEH3JkGT39VxgHHDnKcHoo8=```|
+| 5 | Smallest Multiple                             |```xO5dospYlRpvG/++TrYfsPiDAUD8nEjXu15VR9a35PM=```|
+| 6 |	Sum Square Difference                         |```PdwaPzcrPRCYWFdp5GGudYJr7iNbhzBBscFhGElrFJE=```|
+| 7 | 10 001st Prime                                |```W9cFhk5Trcwc1arraJwRg6XAcLmyWlPHvIluM9tGXVs=```|
+| 8 | Largest Product in a Series                   |```wHxcWhnkpNBeba1BejBhQp46zNiJsooW32d8R34mtwE=```|
+| 9 | Special Pythagorean Triplet                   |```JJ0vmbn9Te2ImCDnfJjVr32KmEia96CkXC6Ta9oQCc4=```|
+| 10 | Summation of Primes                          |```YT4RU35sQTq76pEUbZcIlQcsHaXDysAC44zUYYXvv7M=```|
+| 11 | Largest Product in a Grid                    |```tu6WDRmcWC7vuSmyiMZQB5eKY3cAshQ5uclFPqLDCdI=```|
+| 12 | Highly Divisible Triangular Number           |```mHAYvqAhQRzd81pTdTzgIzca2Qlk9Lv9fkruSpga6+0=```|
+| 13 | Large Sum                                    |```sJgAEFsHnjuLGNxyXMmzp6NwLrJYMFB4NH0yY4HGE8k=```|
+| 14 | Longest Collatz Sequence                     |```+DwLJDVivKsBbBfFrwbaCnb2gUVuffQcLxb/gfKFEvE=```|
+| 15 | Lattice Paths                                |```9R7oWqCpyFacGVUsxrRozvdNrx+hDc4DurKqmJ81KKw=```|
+| 16 | Power Digit Sum                              |```hcGniBJCqXzXwDR8Bke9cni7X47x7YTFcUKB8C2Ih+U=```|
+| 17 | Number Letter Counts                         |```9oOCfkcFR8jw0fnuGam/SPrE/ro9dN6L918UYJKx4bM=```|
+| 18 | Maximum Path Sum I                           |```9CI75neQfZV34Bz8rT5yizBLLOp6tBKWY5RaKXQCpyw=```|  
+| 19 | Counting Sundays                             |```tj5A6kU0JtVvese9FfV3j6rEDPTqs6dbaZcd0EuJJ/w=```|
+| 20 | Factorial Digit Sum                          |```BCDt9/NLweCVQV/zePXojfJUxzvce13QOK3ExQ4lg44=```|
+| 21 | Amicable Numbers                             |```kJbZMLS4Leex1TJNqy0lx7mJaujIVFFN+NJlMzQIW+s=```|
+| 22 | Names Scores                                 |```Tx2yVhBY82xkYJo1hmcvTbZBVyoueXA7ZByoqZBqPjg=```|
+| 23 | Non-Abundant Sums                            |```Y7loxHO5+vp/vhzu5ktLKY2wCWFw1BWC+XD60VHi94c=```|
+| 24 | Lexicographic Permutations                   |```Xgr5KH76Lad53kqlEi5wW8H/teH+65wDH/MpBXlqB5w=```|
+| 25 | 1000-digit Fibonacci Number                  |```+zifUX0+NKBfrXPij8nXASRpR3P51/WtDK1v/o4QNlE=```|
+| 26 | Reciprocal Cycles                            |```08txJqbBH8vv0vRRrDZIhZMzdnMN7bJm0Zy7/TB07WQ=```|
+| 27 | Quadratic Primes                             |```LATSogbAyrtiesx2MAuwZ1V7jT6nl7u96cz4h0nM42k=```|
+| 28 | Number Spiral Diagonals                      |```FYHQ3o07NBoWtq7lepOPih88YzQq3wYDmhsHEe7uHII=```|
+| 29 | Distinct Powers                              |```Ndv6utLP71pURSsJcZsJE81MeimdswwIsp2Vnki6bqA=```|
+| 30 | Digit Fifth Powers                           |```qTc6cTe1oNmgQKQC0dNBGM29Teb52iLPXdlpHG1O6vI=```|
+| 31 | Coin Sums                                    |```2d1ehyuk8sRNy+R6Nwz0Hvd1pvD5D5L82i1BOSyEAYY=```|
+| 32 | Pandigital Products                          |```K+ryJeZljU5OHvuE4MpM+C81EXnmI6ml7GUSuas6fjM=```|
+| 33 | Digit Cancelling Fractions                   |```L2XUEXR5NHuTA6QLIDZR9guu4CeOpJxaWCKAGfQMXkg=```|
+| 34 | Digit Factorials                             |```3kJIQ2fINAgslYA1QgVSNN/GYY0VdF8UVAF2crL8OrY=```|
 | 35 | Circular Primes                              | |
 | 36 | Double-base Palindromes                      | |
 | 37 | Truncatable Primes                           | |
