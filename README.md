@@ -6,7 +6,7 @@ My solutions to the [Project Euler](https://projecteuler.net/) problems ([CC BY-
 
 A checklist with runtimes can be found [here](https://github.com/and-yoo/ProjectEuler/blob/main/pe_runtimes_checklist.md).
 
-Numerical answers to the solved problems can be found [here](https://github.com/and-yoo/ProjectEuler/blob/main/pe_answers.md). (Answers are hashed with Blake2b-512.)
+Numerical answers to the solved problems can be found [here](https://github.com/and-yoo/ProjectEuler/blob/main/pe_answers.md). (Answers are hashed with BLAKE2b-512.)
 
 ## Disclaimer
 
