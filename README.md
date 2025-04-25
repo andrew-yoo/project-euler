@@ -1,4 +1,4 @@
-# ProjectEuler
+# Project Euler Solutions
 
 ## About
 
