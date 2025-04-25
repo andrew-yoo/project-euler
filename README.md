@@ -61,7 +61,7 @@ Below are runtime approximations (in seconds), intended solely to verify that so
 | 50 | Consecutive Prime Sum                        | | | |
 | 51 |                                              | | | |
 | 52 |                                              | | | |
-| 53|                                              | | | |
+| 53 |                                              | | | |
 | 54 |                                              | | | |
 | 55 |                                              | | | |
 | 56 |                                              | | | |
