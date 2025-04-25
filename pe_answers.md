@@ -38,7 +38,7 @@ Answers are hashed with BLAKE2b-256 and encoded in base64.
 | 33 | Digit Cancelling Fractions                   |```L2XUEXR5NHuTA6QLIDZR9guu4CeOpJxaWCKAGfQMXkg=```|
 | 34 | Digit Factorials                             |```3kJIQ2fINAgslYA1QgVSNN/GYY0VdF8UVAF2crL8OrY=```|
 | 35 | Circular Primes                              |```xUL/lHm8wAcGLqikWlqsrPxOtEkhdbhHFChiTIGuJMM=```|
-| 36 | Double-base Palindromes                      | |
+| 36 | Double-base Palindromes                      |```FR4PsGmvWnbarCLDdZgf5mXNy9emsCFpinLMJ04nbdk=```|
 | 37 | Truncatable Primes                           | |
 | 38 | Pandigital Multiples                         | |
 | 39 | Integer Right Triangles                      | |
