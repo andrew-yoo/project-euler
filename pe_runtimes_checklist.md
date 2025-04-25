@@ -37,7 +37,7 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 32 | Pandigital Products                          | 11.2493 | | |
 | 33 | Digit Cancelling Fractions                   | 0.0077 | | |
 | 34 | Digit Factorials                             | 0.1309 | | |
-| 35 | Circular Primes                              | | | |
+| 35 | Circular Primes                              | 11.4071 | | |
 | 36 | Double-base Palindromes                      | | | |
 | 37 | Truncatable Primes                           | | | | 
 | 38 | Pandigital Multiples                         | | | |
