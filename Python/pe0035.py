@@ -10,3 +10,36 @@
 # 
 # How many circular primes are there below one million?
 # """
+
+import itertools
+import sympy
+
+def rotate_list_left(input_list):
+    return input_list[1:] + input_list[:1]
+
+def generate_rotations(number):
+    rotations = []
+    digits = list(str(number))
+    rotations.append(int(number))
+    for a in range(len(digits) - 1):
+        digits = rotate_list_left(digits)
+        rotations.append(int(''.join(digits)))
+    return rotations
+
+def check_circular_prime(input_list):
+    prime_counter = 0
+    for b in input_list:
+        if sympy.isprime(b):
+            prime_counter += 1
+    if prime_counter == len(input_list):
+        return True
+    else:
+        return False
+
+circular_primes = set()
+
+for c in range(1_000_000):
+    if check_circular_prime(generate_rotations(c)):
+        circular_primes.add(c)
+
+print(len(circular_primes))
