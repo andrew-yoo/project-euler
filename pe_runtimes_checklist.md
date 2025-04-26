@@ -38,8 +38,8 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 33 | Digit Cancelling Fractions                   | 0.0077 | | |
 | 34 | Digit Factorials                             | 0.1309 | | |
 | 35 | Circular Primes                              | 11.4071 | | |
-| 36 | Double-base Palindromes                      | | | |
-| 37 | Truncatable Primes                           | | | | 
+| 36 | Double-base Palindromes                      | 0.9293 | | |
+| 37 | Truncatable Primes                           | 1.6805 | | | 
 | 38 | Pandigital Multiples                         | | | |
 | 39 | Integer Right Triangles                      | | | |
 | 40 | Champernowne's Constant                      | | | |
