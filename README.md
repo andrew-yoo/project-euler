@@ -10,13 +10,7 @@ Hashed numerical answers to the solved problems can be found [here](https://gith
 
 ## Disclaimer
 
-This repository aims to comply with all applicable terms outlined under the Creative Commons BY-NC-SA 4.0 license. Specifically:
-
-* Section 2(a)(1)(A)-(B): Permitting the sharing and reproduction of original or modified material, provided proper attribution is given.
-
-* Section 3(a) and 3(b): Ensuring accurate citation of original material and clearly identifying modifications.
-
-The solutions provided in this repository qualify as adaptations of the original material, as defined under Section 1(a), for the following reasons:
+This repository aims to comply with all applicable terms outlined under the Creative Commons BY-NC-SA 4.0 license, including sections 2(a)(1)(A)-(B) and 3(a)-(b). The solutions provided in this repository qualify as adaptations of the original material, as defined under Section 1(a), for the following reasons:
 
 * These solutions represent a transformation of the original problems through the application of independent problem-solving methods, including novel analysis, calculations, and coding implementations.
 
