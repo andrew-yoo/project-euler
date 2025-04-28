@@ -41,7 +41,7 @@ Answers are hashed with BLAKE2b-256 and encoded in base64.
 | 36 | Double-base Palindromes                      |```FR4PsGmvWnbarCLDdZgf5mXNy9emsCFpinLMJ04nbdk=```|
 | 37 | Truncatable Primes                           |```9LJvlpnRJtaGfTaoehBYvlUr0RCvsmlqDKQ7P50ZcvA=```|
 | 38 | Pandigital Multiples                         |```CfztO61dQb4QzVtjYuKbXMCSsO5omZfpGp8keTs8bLk=```|
-| 39 | Integer Right Triangles                      | |
+| 39 | Integer Right Triangles                      |```c7BgGlOHaZ42I9RldzxyIejc6ULtYa5Pade67W753YA=```|
 | 40 | Champernowne's Constant                      | |
 | 41 | Pandigital Prime                             | |
 | 42 | Coded Triangle Numbers                       | |
