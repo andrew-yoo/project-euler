@@ -40,8 +40,8 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 35 | Circular Primes                              | 11.4071 | | |
 | 36 | Double-base Palindromes                      | 0.9293 | | |
 | 37 | Truncatable Primes                           | 1.6805 | | | 
-| 38 | Pandigital Multiples                         | | | |
-| 39 | Integer Right Triangles                      | | | |
+| 38 | Pandigital Multiples                         | 0.0160 | | |
+| 39 | Integer Right Triangles                      | 52.5410 | | |
 | 40 | Champernowne's Constant                      | | | |
 | 41 | Pandigital Prime                             | | | |
 | 42 | Coded Triangle Numbers                       | | | |
