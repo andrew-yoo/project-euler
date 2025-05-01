@@ -44,7 +44,7 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 39 | Integer Right Triangles                      | 52.5410 | | |
 | 40 | Champernowne's Constant                      | 4.5428 | | |
 | 41 | Pandigital Prime                             | 0.3478 | | |
-| 42 | Coded Triangle Numbers                       | | | |
+| 42 | Coded Triangle Numbers                       | 0.0181 | | |
 | 43 | Sub-string Divisibility                      | | | |
 | 44 | Pentagon Numbers                             | | | |
 | 45 | Triangular, Pentagonal, and Hexagonal        | | | |
