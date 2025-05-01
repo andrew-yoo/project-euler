@@ -21,5 +21,4 @@ def find_largest_pandigital_prime():
                 # The first number should also be the largest
                 return num
 
-largest_prime = find_largest_pandigital_prime()
-largest_prime
+find_largest_pandigital_prime()
