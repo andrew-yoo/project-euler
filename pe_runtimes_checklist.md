@@ -42,7 +42,7 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 37 | Truncatable Primes                           | 1.6805 | | | 
 | 38 | Pandigital Multiples                         | 0.0160 | | |
 | 39 | Integer Right Triangles                      | 52.5410 | | |
-| 40 | Champernowne's Constant                      | | | |
+| 40 | Champernowne's Constant                      | 4.5428 | | |
 | 41 | Pandigital Prime                             | | | |
 | 42 | Coded Triangle Numbers                       | | | |
 | 43 | Sub-string Divisibility                      | | | |
