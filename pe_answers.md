@@ -44,7 +44,7 @@ Answers are hashed with BLAKE2b-256 and encoded in base64.
 | 39 | Integer Right Triangles                      |```c7BgGlOHaZ42I9RldzxyIejc6ULtYa5Pade67W753YA=```|
 | 40 | Champernowne's Constant                      |```HAtygMW/+uBXHFGP5rLagACezNRs4ntlL9PNqx5AUdQ=```|
 | 41 | Pandigital Prime                             |```MzVwRd0VC7XVAmtr4Pmj0eWZafGDAomitsEDsjcYZnA=```|
-| 42 | Coded Triangle Numbers                       | |
+| 42 | Coded Triangle Numbers                       |```qNSzNu9gB2Sp56QkujbUtlW90l4gj/uzBQNG2HBV7MA=```|
 | 43 | Sub-string Divisibility                      | |
 | 44 | Pentagon Numbers                             | |
 | 45 | Triangular, Pentagonal, and Hexagonal        | |
