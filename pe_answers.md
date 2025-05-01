@@ -42,7 +42,7 @@ Answers are hashed with BLAKE2b-256 and encoded in base64.
 | 37 | Truncatable Primes                           |```9LJvlpnRJtaGfTaoehBYvlUr0RCvsmlqDKQ7P50ZcvA=```|
 | 38 | Pandigital Multiples                         |```CfztO61dQb4QzVtjYuKbXMCSsO5omZfpGp8keTs8bLk=```|
 | 39 | Integer Right Triangles                      |```c7BgGlOHaZ42I9RldzxyIejc6ULtYa5Pade67W753YA=```|
-| 40 | Champernowne's Constant                      | |
+| 40 | Champernowne's Constant                      |```HAtygMW/+uBXHFGP5rLagACezNRs4ntlL9PNqx5AUdQ=```|
 | 41 | Pandigital Prime                             | |
 | 42 | Coded Triangle Numbers                       | |
 | 43 | Sub-string Divisibility                      | |
