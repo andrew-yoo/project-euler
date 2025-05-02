@@ -45,7 +45,7 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 40 | Champernowne's Constant                      | 4.5428 | | |
 | 41 | Pandigital Prime                             | 0.3478 | | |
 | 42 | Coded Triangle Numbers                       | 0.0181 | | |
-| 43 | Sub-string Divisibility                      | | | |
+| 43 | Sub-string Divisibility                      | 11.7361 | | |
 | 44 | Pentagon Numbers                             | | | |
 | 45 | Triangular, Pentagonal, and Hexagonal        | | | |
 | 46 | Goldbach's Other Conjecture                  | | | |
