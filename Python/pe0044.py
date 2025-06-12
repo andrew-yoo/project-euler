@@ -12,3 +12,25 @@
 # 
 # Find the pair of pentagonal numbers, P[j] and P[k], for which their sum and difference are pentagonal and D = |P[k] − P[j]| is minimised; what is the value of D?
 
+def generate_pentagonal_numbers(n):
+    pentagonal_numbers = set()
+    for x in range(1, n + 1):
+        pentagonal_numbers.add(x * (3 * x - 1) // 2)  # Use integer division
+    return pentagonal_numbers
+
+def check_sum_difference_pentagonal_numbers(num1,num2,pentagonal_numbers):
+    sum_difference_pentagonal_numbers = set()
+    if (num1+num2 in pentagonal_numbers) and (num1-num2 in pentagonal_numbers):
+        return True
+
+pentagonal_numbers = generate_pentagonal_numbers(1000)
+sum_difference_pentagonal_numbers = set()
+
+for a in range(1000):
+    for b in range(1000):
+        if check_sum_difference_pentagonal_numbers(a,b,pentagonal_numbers):
+            sum_difference_pentagonal_numbers.add((a,b))
+
+for x in range(1000):
+    for y in range(1000):
+        
