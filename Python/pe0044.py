@@ -11,26 +11,43 @@
 # It can be seen that P[4] + P[7] = 22 + 70 = 92 = P[8]. However, their difference, 70 − 22 = 48, is not pentagonal.
 # 
 # Find the pair of pentagonal numbers, P[j] and P[k], for which their sum and difference are pentagonal and D = |P[k] − P[j]| is minimised; what is the value of D?
+# """
+
+import random
 
 def generate_pentagonal_numbers(n):
-    pentagonal_numbers = set()
+    pentagonal_numbers = []
     for x in range(1, n + 1):
-        pentagonal_numbers.add(x * (3 * x - 1) // 2)  # Use integer division
+        pentagonal_numbers.append(x * (3 * x - 1) // 2)  # Use integer division
     return pentagonal_numbers
 
-def check_sum_difference_pentagonal_numbers(num1,num2,pentagonal_numbers):
-    sum_difference_pentagonal_numbers = set()
-    if (num1+num2 in pentagonal_numbers) and (num1-num2 in pentagonal_numbers):
+def check_sum(num1,num2,pentagonal_numbers):
+    if num1+num2 in pentagonal_numbers:
         return True
+    else:
+        return False    
+    
+def check_diff(num1,num2,pentagonal_numbers):
+    if num1-num2 in pentagonal_numbers:
+        return True
+    else:
+        return False
 
-pentagonal_numbers = generate_pentagonal_numbers(1000)
-sum_difference_pentagonal_numbers = set()
+def check_sum_diff(num1,num2,pentagonal_numbers):    
+    if check_sum(num1,num2,pentagonal_numbers) and check_diff(num1,num2,pentagonal_numbers):
+        return True
+    else:
+        return False
 
-for a in range(1000):
-    for b in range(1000):
-        if check_sum_difference_pentagonal_numbers(a,b,pentagonal_numbers):
-            sum_difference_pentagonal_numbers.add((a,b))
+pentagonal_numbers = generate_pentagonal_numbers(2_000)
 
-for x in range(1000):
-    for y in range(1000):
-        
+sum_diff = set()
+
+for a in range(2_000):
+    for b in range(2_000):
+        num1 = pentagonal_numbers[a]
+        num2 = pentagonal_numbers[b]
+        if check_sum_diff(num1,num2,pentagonal_numbers):
+            sum_diff.add((num1,num2))
+
+print(sum_diff)
