@@ -13,41 +13,35 @@
 # Find the pair of pentagonal numbers, P[j] and P[k], for which their sum and difference are pentagonal and D = |P[k] − P[j]| is minimised; what is the value of D?
 # """
 
-import random
+import math
 
-def generate_pentagonal_numbers(n):
-    pentagonal_numbers = []
-    for x in range(1, n + 1):
-        pentagonal_numbers.append(x * (3 * x - 1) // 2)  # Use integer division
-    return pentagonal_numbers
-
-def check_sum(num1,num2,pentagonal_numbers):
-    if num1+num2 in pentagonal_numbers:
-        return True
-    else:
-        return False    
-    
-def check_diff(num1,num2,pentagonal_numbers):
-    if num1-num2 in pentagonal_numbers:
-        return True
-    else:
+def is_pentagonal(x):
+    if x < 0:
+        return False
+    try:
+        x = (math.sqrt(24 * x + 1) + 1) / 6
+        return x.is_integer()
+    except:
         return False
 
-def check_sum_diff(num1,num2,pentagonal_numbers):    
-    if check_sum(num1,num2,pentagonal_numbers) and check_diff(num1,num2,pentagonal_numbers):
-        return True
-    else:
-        return False
+def pentagonal(term):
+    return(term*(3*term - 1) // 2)
 
-pentagonal_numbers = generate_pentagonal_numbers(2_000)
+def solve():
+    min_diff = 100_000
+    i = 1
+    while True:
+        pent_i = pentagonal(i)
+        for j in range(i - 1, 0, -1):
+            pent_j = pentagonal(j)
+            sum_ = pent_i + pent_j
+            diff = pent_i - pent_j
+            if is_pentagonal(sum_) and is_pentagonal(diff):
+                if diff < min_diff:
+                    min_diff = diff
+        if i > 10000:
+          break # to prevent infinite loop in some cases
+        i += 1
+    return min_diff
 
-sum_diff = set()
-
-for a in range(2_000):
-    for b in range(2_000):
-        num1 = pentagonal_numbers[a]
-        num2 = pentagonal_numbers[b]
-        if check_sum_diff(num1,num2,pentagonal_numbers):
-            sum_diff.add((num1,num2))
-
-print(sum_diff)
+print(solve())
