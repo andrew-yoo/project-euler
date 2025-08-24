@@ -12,13 +12,6 @@
 # 
 # Find the pair of pentagonal numbers, P[j] and P[k], for which their sum and difference are pentagonal and D = |P[k] − P[j]| is minimised; what is the value of D?
 # """
-
-import math
-
-def is_pentagonal(x):
-    n = (math.sqrt(24 * x + 1) + 1) / 6
-    return n.is_integer()
-
 def pentagonal(n):
     return int(n * (3 * n - 1) / 2)
 

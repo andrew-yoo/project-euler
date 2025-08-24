@@ -24,3 +24,18 @@ def pentagon(n):
 def hexagon(n):
     return n * (2*n - 1)
 
+def find_next_match(limit):
+    triangle_numbers = set()
+    pentagon_numbers = set()
+    hexagon_numbers = set()
+    for i in range(1, limit + 1):
+        triangle_numbers.add(triangle(i))
+        pentagon_numbers.add(pentagon(i))
+        hexagon_numbers.add(hexagon(i))
+
+    for i in range(286, limit):
+        n = hexagon(i)
+        if (n in triangle_numbers) and (n in pentagon_numbers):
+            return n
+
+print(find_next_match(100_000))

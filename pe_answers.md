@@ -47,7 +47,7 @@ Answers are hashed with BLAKE2b-256 and encoded in base64.
 | 42 | Coded Triangle Numbers                       |```qNSzNu9gB2Sp56QkujbUtlW90l4gj/uzBQNG2HBV7MA=```|
 | 43 | Sub-string Divisibility                      |```yyqytrtPTUd5NW4FQatO4MnqDK+/4l6Nw3RwSZVtXaU=```|
 | 44 | Pentagon Numbers                             |```UZC7ZzUOvtgDFh1wcFaK2KNfau975495VB2b5NhpIv4=```|
-| 45 | Triangular, Pentagonal, and Hexagonal        | |
+| 45 | Triangular, Pentagonal, and Hexagonal        |```BKSCPt1AA2C+WoN1ExCAinz5hm1pGMqxvn4dgeZTuGE=```|
 | 46 | Goldbach's Other Conjecture                  | |
 | 47 | Distinct Primes Factors                      | |
 | 48 | Self Powers                                  | |
