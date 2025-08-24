@@ -16,32 +16,27 @@
 import math
 
 def is_pentagonal(x):
-    if x < 0:
-        return False
-    try:
-        x = (math.sqrt(24 * x + 1) + 1) / 6
-        return x.is_integer()
-    except:
-        return False
+    n = (math.sqrt(24 * x + 1) + 1) / 6
+    return n.is_integer()
 
-def pentagonal(term):
-    return(term*(3*term - 1) // 2)
+def pentagonal(n):
+    return int(n * (3 * n - 1) / 2)
 
-def solve():
-    min_diff = 100_000
-    i = 1
-    while True:
-        pent_i = pentagonal(i)
-        for j in range(i - 1, 0, -1):
-            pent_j = pentagonal(j)
-            sum_ = pent_i + pent_j
-            diff = pent_i - pent_j
-            if is_pentagonal(sum_) and is_pentagonal(diff):
-                if diff < min_diff:
-                    min_diff = diff
-        if i > 10000:
-          break # to prevent infinite loop in some cases
-        i += 1
-    return min_diff
+def find_min_difference(limit):
+    pentagonal_numbers = set()
+    for i in range(1, limit + 1):
+        pentagonal_numbers.add(pentagonal(i))
+    min_difference = 1_000_000
+    
+    for j in range(1, limit + 1):
+        pj = pentagonal(j)
+        for k in range(j + 1, limit + 1):
+            pk = pentagonal(k)
+            
+            if ((pk+pj) in pentagonal_numbers) and ((pk-pj) in pentagonal_numbers):
+                if (pj-pk) < min_difference:
+                    min_difference = (pk-pj)
+                    
+    return min_difference
 
-print(solve())
+print(find_min_difference(5_000))
