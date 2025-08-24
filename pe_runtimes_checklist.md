@@ -47,8 +47,8 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 42 | Coded Triangle Numbers                       | 0.0181 | | |
 | 43 | Sub-string Divisibility                      | 11.7361 | | |
 | 44 | Pentagon Numbers                             | 2.3675 | | |
-| 45 | Triangular, Pentagonal, and Hexagonal        | 0.1141| | |
-| 46 | Goldbach's Other Conjecture                  | | | |
+| 45 | Triangular, Pentagonal, and Hexagonal        | 0.1141 | | |
+| 46 | Goldbach's Other Conjecture                  | 6.5148 | | |
 | 47 | Distinct Primes Factors                      | | | |
 | 48 | Self Powers                                  | | | |
 | 49 | Prime Permutations                           | | | |
