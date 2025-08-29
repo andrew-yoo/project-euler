@@ -53,5 +53,5 @@ def find_smallest():
                     break
         if not expressible:
             return n
-s
+
 print(find_smallest())
