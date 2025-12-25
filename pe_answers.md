@@ -49,8 +49,8 @@ Answers are hashed with BLAKE2b-256 and encoded in base64.
 | 44 | Pentagon Numbers                             |```UZC7ZzUOvtgDFh1wcFaK2KNfau975495VB2b5NhpIv4=```|
 | 45 | Triangular, Pentagonal, and Hexagonal        |```BKSCPt1AA2C+WoN1ExCAinz5hm1pGMqxvn4dgeZTuGE=```|
 | 46 | Goldbach's Other Conjecture                  |```BKezRxztlbn23RR43s2uwcH+HOcNwxBsWAmdfQ58dpA=```|
-| 47 | Distinct Primes Factors                      | |
-| 48 | Self Powers                                  | |
+| 47 | Distinct Primes Factors                      |```sd5UHWqyI8D0YOpEE5YOSNiEQSlRAeAobjzHamdC5G4=```|
+| 48 | Self Powers                                  |```MzvaZHxvpUZt9scb/f4fjuAvpcFKZvuAxxdVK5GzF3g=```|
 | 49 | Prime Permutations                           | |
 | 50 | Consecutive Prime Sum                        | |
 | 51 |                                              | |

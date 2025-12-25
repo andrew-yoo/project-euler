@@ -49,8 +49,8 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 44 | Pentagon Numbers                             | 2.3675 | | |
 | 45 | Triangular, Pentagonal, and Hexagonal        | 0.1141 | | |
 | 46 | Goldbach's Other Conjecture                  | 6.5148 | | |
-| 47 | Distinct Primes Factors                      | | | |
-| 48 | Self Powers                                  | | | |
+| 47 | Distinct Primes Factors                      | 1.5781 | | |
+| 48 | Self Powers                                  | 0.0057 | | |
 | 49 | Prime Permutations                           | | | |
 | 50 | Consecutive Prime Sum                        | | | |
 | 51 |                                              | | | |
