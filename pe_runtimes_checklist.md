@@ -4,7 +4,7 @@ The following runtime approximations (in seconds) are included to ensure that so
 | ID | Title | Python | Julia | MATLAB |
 | :--- | :--- | ---: | ---: | ---: |
 | 1 | Multiples of 3 or 5                           | 0.0002  | 0.0420 | 0.0386 | |
-| 2 | Even Fibonacci Numbers                        | 0.0001  | | 0.9204 | |
+| 2 | Even Fibonacci Numbers                        | 0.0001  | 0.0550 | 0.9204 | |
 | 3 | Largest Prime Factor                          | 0.0381  | | |
 | 4 | Largest Palindrome Product                    | 0.4898  | | |
 | 5 | Smallest Multiple                             | 0.0002  | | |
