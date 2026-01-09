@@ -8,7 +8,7 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 3 | Largest Prime Factor                          | 0.0381  | | |
 | 4 | Largest Palindrome Product                    | 0.4898  | | |
 | 5 | Smallest Multiple                             | 0.0002  | | |
-| 6 | Sum Square Difference                         | 0.0001  | | |
+| 6 | Sum Square Difference                         | 0.0001  | 0.0370 | |
 | 7 | 10 001st Prime                                | 0.0187  | | |
 | 8 | Largest Product in a Series                   | 0.0093  | | |
 | 9 | Special Pythagorean Triplet                   | 0.0014  | | |
