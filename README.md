@@ -2,7 +2,9 @@
 
 ## About
 
-My solutions to the [Project Euler](https://projecteuler.net/) problems ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). This repository is meant for me to track my personal progress, but feel free to take a look around. All code is original and often represents my first successful solution; i.e., do not expect particularly optimized or elegant scripts.
+My solutions to the [Project Euler](https://projecteuler.net/) problems ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). This repository is meant for me to track my personal progress, but feel free to take a look around. All code is original.
+
+Do not expect code to be particularly optimized or elegant: I do not edit code after solving problems, and I also use these problems to learn new languages.
 
 A checklist with runtimes can be found [here](https://github.com/and-yoo/ProjectEuler/blob/main/pe_runtimes_checklist.md).
 
