@@ -2,8 +2,9 @@
 
 import hashlib
 import base64
+import argparse
 
-def blake2b(input_, bits):
+def blake2b(input_, bits=256):
     try:
         if not isinstance(bits, int):
             raise ValueError("The 'bits' parameter must be an integer.")
@@ -20,3 +21,19 @@ def blake2b(input_, bits):
     except Exception as e:
         # Handle exceptions and return an error message
         return f"Error: {str(e)}"
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate BLAKE2b hash.")
+    parser.add_argument("input_", type=str, help="Input string to hash")
+
+    # Parse the arguments
+    args = parser.parse_args()
+
+    # Call the blake2b function and print the result
+    result = blake2b(args.input_)
+    print(result)
+
+
+if __name__ == "__main__":
+    main()

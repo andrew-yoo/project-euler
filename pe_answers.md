@@ -3,12 +3,12 @@ Answers are hashed with BLAKE2b-256 and encoded in base64.
 
 | ID | Title | Answer |
 | :--- | :--- | --- |
-| 1 |	Multiples of 3 or 5                           |```CKaTfvFkajYguKz387BBkxOg22QzD+KNF+hLJNZFZ9E=```|
+| 1 | Multiples of 3 or 5                           |```CKaTfvFkajYguKz387BBkxOg22QzD+KNF+hLJNZFZ9E=```|
 | 2 | Even Fibonacci Numbers                        |```RaOjr8aWtYEMJVVTkAh4VraBtiM6NU3nD+Pd2Zu+2Gw=```|
 | 3 | Largest Prime Factor                          |```gP4pcXelNNS5+/tU9AXLOlz8kLtKLYWB9TvT93JRLu8=```|
-| 4 |	Largest Palindrome Product                    |```hU/gk/MwYvGSVH1ToDVhZEH3JkGT39VxgHHDnKcHoo8=```|
+| 4 | Largest Palindrome Product                    |```hU/gk/MwYvGSVH1ToDVhZEH3JkGT39VxgHHDnKcHoo8=```|
 | 5 | Smallest Multiple                             |```xO5dospYlRpvG/++TrYfsPiDAUD8nEjXu15VR9a35PM=```|
-| 6 |	Sum Square Difference                         |```PdwaPzcrPRCYWFdp5GGudYJr7iNbhzBBscFhGElrFJE=```|
+| 6 | Sum Square Difference                         |```PdwaPzcrPRCYWFdp5GGudYJr7iNbhzBBscFhGElrFJE=```|
 | 7 | 10 001st Prime                                |```W9cFhk5Trcwc1arraJwRg6XAcLmyWlPHvIluM9tGXVs=```|
 | 8 | Largest Product in a Series                   |```wHxcWhnkpNBeba1BejBhQp46zNiJsooW32d8R34mtwE=```|
 | 9 | Special Pythagorean Triplet                   |```JJ0vmbn9Te2ImCDnfJjVr32KmEia96CkXC6Ta9oQCc4=```|
@@ -51,7 +51,7 @@ Answers are hashed with BLAKE2b-256 and encoded in base64.
 | 46 | Goldbach's Other Conjecture                  |```BKezRxztlbn23RR43s2uwcH+HOcNwxBsWAmdfQ58dpA=```|
 | 47 | Distinct Primes Factors                      |```sd5UHWqyI8D0YOpEE5YOSNiEQSlRAeAobjzHamdC5G4=```|
 | 48 | Self Powers                                  |```MzvaZHxvpUZt9scb/f4fjuAvpcFKZvuAxxdVK5GzF3g=```|
-| 49 | Prime Permutations                           | |
+| 49 | Prime Permutations                           |```k0AQ3DoOka0dEyibbUEL+Qnq6ra/WNWh0Gx/sfdGW/g=```|
 | 50 | Consecutive Prime Sum                        | |
 | 51 |                                              | |
 | 52 |                                              | |
