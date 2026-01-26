@@ -16,6 +16,9 @@
 # 
 # Find the product of the coefficients, a and b, for the quadratic expression that produces the maximum number of primes for consecutive values of n, starting with n = 0.
 # """
+import time
+t1 = time.perf_counter()
+
 
 import sympy
 
@@ -34,3 +37,6 @@ for a in range(-999,1000):
       product = a * b
 
 print(product)
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

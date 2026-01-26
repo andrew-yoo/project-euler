@@ -10,6 +10,9 @@
 # 
 # Note: as 1! = 1 and 2! = 2 are not sums they are not included.
 # """
+import time
+t1 = time.perf_counter()
+
 
 import math
 
@@ -30,3 +33,6 @@ for x in range(10, 100000): # Can be adjusted
     curious.add(x)
 
 print(sum(curious))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

@@ -17,6 +17,9 @@
 # 
 # What is the smallest odd composite that cannot be written as the sum of a prime and twice a square?
 # """
+import time
+t1 = time.perf_counter()
+
 
 from sympy import isprime
 
@@ -55,3 +58,6 @@ def find_smallest():
             return n
 
 print(find_smallest())
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

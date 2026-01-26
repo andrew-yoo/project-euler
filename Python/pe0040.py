@@ -14,6 +14,9 @@
 # 
 # d[1] × d[10] × d[100] × d[1000] × d[10000] × d[100000] × d[1000000]
 # """
+import time
+t1 = time.perf_counter()
+
 
 def generate_champernowe(bound):
     champernowe = "."
@@ -25,3 +28,6 @@ def generate_champernowe(bound):
 
 d = generate_champernowe(1_000_000)
 print(int(d[1]) * int(d[10]) * int(d[100]) * int(d[1_000]) * int(d[10_000]) * int(d[100_000]) * int(d[1_000_000]))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

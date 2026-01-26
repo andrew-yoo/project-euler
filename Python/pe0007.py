@@ -7,6 +7,9 @@
 # By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 # What is the 10 001st prime number?
 # """
+import time
+t1 = time.perf_counter()
+
 
 def sieve_of_eratosthenes(nth_prime):
     import math
@@ -27,3 +30,6 @@ def sieve_of_eratosthenes(nth_prime):
     return primes[nth_prime - 1]
 
 sieve_of_eratosthenes(10001)
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

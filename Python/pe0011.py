@@ -30,6 +30,9 @@
 # The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 # What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
 # """
+import time
+t1 = time.perf_counter()
+
 
 import numpy as np
 
@@ -92,3 +95,6 @@ for g in range(3, len(grid)):
 solutions.append(max_downleft_product)
 
 print(max(solutions))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

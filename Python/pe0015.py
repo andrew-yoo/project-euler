@@ -7,6 +7,9 @@
 # Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, there are exactly 6 routes to the bottom right corner.
 # How many such routes are there through a 20×20 grid?
 # """
+import time
+t1 = time.perf_counter()
+
 
 import numpy as np
 
@@ -52,3 +55,6 @@ max_steps = (rows - 1) + (cols - 1) # Max steps = horizontal vertices + vertical
 total_routes = raise_power(adj_matrix, start_node, end_node, max_steps)
 
 print(total_routes)
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

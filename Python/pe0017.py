@@ -8,6 +8,9 @@
 # If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?
 # NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-two) contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. The use of "and" when writing out numbers is in compliance with British usage.
 # """
+import time
+t1 = time.perf_counter()
+
 
 def letter_count(number):
   ones = {0:0, 1:3, 2:3, 3:5, 4:4, 5:4, 6:3, 7:5, 8:5, 9:4}
@@ -36,3 +39,6 @@ sum = 0
 for x in range(1,1001):
   sum += letter_count(x)
 print(sum)
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

@@ -7,6 +7,9 @@
 # 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 # What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 # """
+import time
+t1 = time.perf_counter()
+
 
 import math
 
@@ -24,3 +27,6 @@ def lcm_list(list):
   print(final)
 
 lcm_list([11,12,13,14,15,16,17,18,19,20]) # Ignoring redundant cases
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

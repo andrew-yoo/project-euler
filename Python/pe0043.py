@@ -18,6 +18,9 @@
 # 
 # Find the sum of all 0 to 9 pandigital numbers with this property.
 # """
+import time
+t1 = time.perf_counter()
+
 
 import itertools
 
@@ -47,3 +50,6 @@ for pandigital in pandigitals:
         divisable_pandigitals.add(int(''.join(map(str, pandigital))))
 
 print(sum(divisable_pandigitals))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

@@ -13,6 +13,9 @@
 # 
 # Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
 # """
+import time
+t1 = time.perf_counter()
+
 
 def check_digit_power_sum(input_number,power):
     digit_powers = []
@@ -30,3 +33,6 @@ for x in range(2,200000): # Upper bound can be adjusted
         number_sum += x
 
 print(number_sum)
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

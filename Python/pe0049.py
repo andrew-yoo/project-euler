@@ -13,6 +13,9 @@
 # 
 # What 12-digit number do you form by concatenating the three terms in this sequence?
 # """"
+import time
+t1 = time.perf_counter()
+
 
 from math import sqrt, ceil
 
@@ -56,3 +59,6 @@ def main():
     print(f'{a}{b}{c}')         
 
 main()
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

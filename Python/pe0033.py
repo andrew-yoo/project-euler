@@ -12,6 +12,9 @@
 # 
 # If the product of these four fractions is given in its lowest common terms, find the value of the denominator.
 # """
+import time
+t1 = time.perf_counter()
+
 
 import math
 import fractions
@@ -40,3 +43,6 @@ for z in range(len(curious)):
   product *= fractions.Fraction(curious[z][0],curious[z][1])
 
 print(product.denominator)
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

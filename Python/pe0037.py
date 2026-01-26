@@ -10,6 +10,9 @@
 # 
 # NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 # """
+import time
+t1 = time.perf_counter()
+
 
 import sympy
 
@@ -44,3 +47,6 @@ def find_truncatable_primes():
     return (truncatable_primes)
 
 print(sum(find_truncatable_primes()))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

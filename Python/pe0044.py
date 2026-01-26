@@ -12,6 +12,10 @@
 # 
 # Find the pair of pentagonal numbers, P[j] and P[k], for which their sum and difference are pentagonal and D = |P[k] − P[j]| is minimised; what is the value of D?
 # """
+import time
+t1 = time.perf_counter()
+
+
 def pentagonal(n):
     return int(n * (3 * n - 1) / 2)
 
@@ -33,3 +37,6 @@ def find_min_difference(limit):
     return min_difference
 
 print(find_min_difference(5_000))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

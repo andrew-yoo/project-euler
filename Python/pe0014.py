@@ -13,6 +13,9 @@
 # Which starting number, under one million, produces the longest chain?
 # NOTE: Once the chain starts the terms are allowed to go above one million.
 # """
+import time
+t1 = time.perf_counter()
+
 
 def collatz_length(number):
   length = 1 # Include the first number in the collatz length; doesn't really change the outcome, though
@@ -32,3 +35,6 @@ for x in range(1000000,1,-1): # Running through the loop backwards speeds it up,
     longest_chain_seed = x
 
 print(longest_chain_seed)
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

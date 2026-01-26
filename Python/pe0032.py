@@ -12,6 +12,9 @@
 # 
 # HINT: Some products can be obtained in more than one way so be sure to only include it once in your sum.
 # """
+import time
+t1 = time.perf_counter()
+
 
 import itertools
 
@@ -33,3 +36,6 @@ for p in generate_digit_permutations(1, 9):
                 pandigitals.add(z) # Does nothing if product is a duplicate
 
 print(sum(pandigitals)) 
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

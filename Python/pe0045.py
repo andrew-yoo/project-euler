@@ -14,6 +14,9 @@
 # 
 # Find the next triangle number that is also pentagonal and hexagonal.
 # """
+import time
+t1 = time.perf_counter()
+
 
 def triangle(n):
     return (n * (n+1)) / 2
@@ -39,3 +42,6 @@ def find_next_match(limit):
             return n
 
 print(find_next_match(100_000))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

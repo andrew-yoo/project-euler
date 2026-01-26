@@ -7,6 +7,9 @@
 # 2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
 # What is the sum of the digits of the number 2^1000?
 # """
+import time
+t1 = time.perf_counter()
+
 
 def sum_of_digits(number):
   number = str(number)
@@ -16,3 +19,6 @@ def sum_of_digits(number):
   return(sum(digits))
 
 sum_of_digits(2 ** 1000)
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

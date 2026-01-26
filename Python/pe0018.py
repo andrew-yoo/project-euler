@@ -28,6 +28,9 @@
 # 63 66 04 68 89 53 67 30 73 16 69 87 40 31
 # 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
 # """
+import time
+t1 = time.perf_counter()
+
 
 tri = [ # Python doesn't allow leading zeros (e.g. 4 instead of 04)
     [75],
@@ -54,3 +57,6 @@ def max_path(tri):
     return copy[0]
 
 print(max_path(tri))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

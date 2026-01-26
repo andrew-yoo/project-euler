@@ -17,6 +17,9 @@
 # We can see that 28 is the first triangle number to have over five divisors.
 # What is the value of the first triangle number to have over five hundred divisors?
 # """
+import time
+t1 = time.perf_counter()
+
 
 import math
 
@@ -39,3 +42,6 @@ def check_divisor(min_divisor, triangular_numbers):
             break
 
 print(check_divisor(500, triangular_numbers))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

@@ -16,6 +16,9 @@
 # 
 # Find the first four consecutive integers to have four distinct prime factors. What is the first of these numbers?
 # """
+import time
+t1 = time.perf_counter()
+
 
 import itertools
 
@@ -53,3 +56,7 @@ for a in range(1,1_000_000):
         if distinct([factors_a, factors_b, factors_c, factors_d]):
             print(a)
             break
+
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

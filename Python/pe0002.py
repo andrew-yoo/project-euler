@@ -8,6 +8,8 @@
 # 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 # """
+import time
+t1 = time.perf_counter()
 
 fib, sum = [1,1], 0
 while fib[-1] < 4000000:
@@ -16,3 +18,6 @@ for item in fib:
   if item % 2 == 0:
     sum += item
 print(sum)
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

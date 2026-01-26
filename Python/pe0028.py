@@ -16,6 +16,8 @@
 # 
 # What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed in the same way?
 # """
+import time
+t1 = time.perf_counter()
 
 import numpy as np
 
@@ -68,3 +70,6 @@ def sum_ulam_diagonals(n):
   return diagonal_sum
 
 print(sum_ulam_diagonals(1001))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

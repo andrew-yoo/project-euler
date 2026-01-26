@@ -12,6 +12,9 @@
 # 
 # How many different ways can £2 be made using any number of coins?
 # """
+import time
+t1 = time.perf_counter()
+
 
 coins = [200, 100, 50, 20, 10, 5, 2, 1]
 target = 200
@@ -56,3 +59,6 @@ for a in range(target // coins[0] + 1):
                                 solutions.append(current)
 
 print(len(solutions))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

@@ -7,6 +7,9 @@
 # The prime factors of 13195 are 5, 7, 13 and 29.
 # What is the largest prime factor of the number 600851475143?
 # """
+import time
+t1 = time.perf_counter()
+
 
 import math
 import secrets
@@ -93,3 +96,6 @@ def largest_prime_factor(n):
   print(n)
 
 largest_prime_factor(600851475143) # This is overly complicated because I mostly copied this from a code I already wrote for general prime factorization using the Lenstra ECM method
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

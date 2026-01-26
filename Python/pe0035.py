@@ -10,6 +10,9 @@
 # 
 # How many circular primes are there below one million?
 # """
+import time
+t1 = time.perf_counter()
+
 
 import itertools
 import sympy
@@ -43,3 +46,6 @@ for c in range(1_000_000):
         circular_primes.add(c)
 
 print(len(circular_primes))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

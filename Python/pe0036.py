@@ -10,6 +10,9 @@
 # 
 # (Please note that the palindromic number, in either base, may not include leading zeros.)
 # """
+import time
+t1 = time.perf_counter()
+
 
 def base10_to_binary(number):
     binary = bin(number)[2:]
@@ -22,3 +25,6 @@ for a in range(1_000_000):
         double_base_palindromes.add(a)
 
 print(sum(double_base_palindromes))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

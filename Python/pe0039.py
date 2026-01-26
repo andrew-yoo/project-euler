@@ -10,6 +10,9 @@
 # 
 # For which value of p ≤ 1000, is the number of solutions maximised?
 # """
+import time
+t1 = time.perf_counter()
+
 
 def check_pythagorean_triple(tuple_):
     if tuple_[0]**2+ tuple_[1]**2 == tuple_[2]**2:
@@ -33,3 +36,6 @@ for x in range(1001):
     perimeters[x] = len(generate_pythagorean_triples(x))
 
 print(max(perimeters, key=perimeters.get))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

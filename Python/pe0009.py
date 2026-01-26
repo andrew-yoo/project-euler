@@ -9,6 +9,9 @@
 # For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
 # There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc.
 # """
+import time
+t1 = time.perf_counter()
+
 
 import math
 import numpy as np
@@ -46,3 +49,6 @@ def find_triple_with_sum(triples, target_sum):
 solution = find_triple_with_sum(euclid_primitive_triples(100), 1000)
 
 print(np.prod(solution))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

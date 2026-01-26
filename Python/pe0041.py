@@ -8,6 +8,9 @@
 # 
 # What is the largest n-digit pandigital prime that exists?
 # """
+import time
+t1 = time.perf_counter()
+
 
 import sympy
 from itertools import permutations
@@ -22,3 +25,6 @@ def find_largest_pandigital_prime():
                 return num
 
 find_largest_pandigital_prime()
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))

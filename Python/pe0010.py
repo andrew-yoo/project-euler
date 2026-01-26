@@ -7,6 +7,9 @@
 # The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 # Find the sum of all the primes below two million.
 # """
+import time
+t1 = time.perf_counter()
+
 
 def sieve_of_eratosthenes(bound):
     # Create a boolean array of True values
@@ -27,3 +30,6 @@ def sieve_of_eratosthenes(bound):
 primes = sieve_of_eratosthenes(2000000)
 
 print(sum(primes))
+
+t2 = time.perf_counter()
+print(round(t2 - t1, 4))
