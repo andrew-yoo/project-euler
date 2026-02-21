@@ -52,7 +52,7 @@ Answers are hashed with BLAKE2b-256 and encoded in base64.
 | 47 | Distinct Primes Factors                      |```sd5UHWqyI8D0YOpEE5YOSNiEQSlRAeAobjzHamdC5G4=```|
 | 48 | Self Powers                                  |```MzvaZHxvpUZt9scb/f4fjuAvpcFKZvuAxxdVK5GzF3g=```|
 | 49 | Prime Permutations                           |```k0AQ3DoOka0dEyibbUEL+Qnq6ra/WNWh0Gx/sfdGW/g=```|
-| 50 | Consecutive Prime Sum                        | |
+| 50 | Consecutive Prime Sum                        |```UcWD7/5M+s8pZkWB1+/zpgoRvjZj1zjxmhUOG2C3b5k=```|
 | 51 |                                              | |
 | 52 |                                              | |
 | 53 |                                              | |

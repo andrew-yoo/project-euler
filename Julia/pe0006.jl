@@ -12,6 +12,8 @@
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 # """
 
+t1 = time()
+
 function squares_sum(n)
     total = 0
 
@@ -33,3 +35,6 @@ function sum_squares(n)
 end
 
 println(sum_squares(100) - squares_sum(100))
+
+t2 = time()
+println(t2 - t1)

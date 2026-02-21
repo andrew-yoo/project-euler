@@ -9,6 +9,8 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 # """
 
+t1 = time()
+
 function even_fibonacci_sum(limit)
     fib = [1,1]
     sum = 0
@@ -26,3 +28,6 @@ function even_fibonacci_sum(limit)
 end
 
 println(even_fibonacci_sum(4_000_000))
+
+t2 = time()
+println(t2 - t1)

@@ -8,6 +8,8 @@
 # Find the sum of all the multiples of 3 or 5 below 1000.
 # """
 
+t1 = time()
+
 function main()
     counter = 0
     
@@ -20,4 +22,7 @@ function main()
     return counter
 end
 
-print(main())
+println(main())
+
+t2 = time()
+println(t2 - t1)
