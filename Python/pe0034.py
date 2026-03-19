@@ -35,7 +35,10 @@ for x in range(10, 100000):  # Can be adjusted
     if check_curious(x):
         curious.add(x)
 
-print(sum(curious))
+def answer():
+    return sum(curious)
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))
