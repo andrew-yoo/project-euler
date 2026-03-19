@@ -9,15 +9,21 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 # """
 import time
+
 t1 = time.perf_counter()
 
-fib, sum = [1,1], 0
-while fib[-1] < 4000000:
-  fib.append(fib[-1]+fib[-2])
-for item in fib:
-  if item % 2 == 0:
-    sum += item
-print(sum)
+
+def answer():
+    fib, sum = [1, 1], 0
+    while fib[-1] < 4000000:
+        fib.append(fib[-1] + fib[-2])
+    for item in fib:
+        if item % 2 == 0:
+            sum += item
+    return sum
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

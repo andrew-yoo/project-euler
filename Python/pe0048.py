@@ -9,6 +9,7 @@
 # Find the last ten digits of the series, 1^1 + 2^2 + 3^3 + ... + 1000^1000.
 # """
 import time
+
 t1 = time.perf_counter()
 
 
@@ -17,7 +18,12 @@ sum = 0
 for i in range(1, 1001):
     sum += i**i
 
-print(f'{sum % 10**10}')
+
+def answer():
+    return sum % 10**10
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

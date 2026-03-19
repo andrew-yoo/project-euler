@@ -6,7 +6,7 @@
 # """
 # The Fibonacci sequence is defined by the recurrence relation:
 # F[n] = F[n−1] + F[n−2], where F[1] = 1 and F[2] = 1.
-# 
+#
 # Hence the first 12 terms will be:
 # F[1] = 1
 # F[2] = 1
@@ -20,20 +20,27 @@
 # F[10] = 55
 # F[11] = 89
 # F[12] = 144
-# 
+#
 # The 12th term, F[12], is the first term to contain three digits.
-# 
+#
 # What is the first term in the Fibonacci sequence to contain 1000 digits?
 # """
 import time
+
 t1 = time.perf_counter()
 
 
-fibonacci = [1,1]
+fibonacci = [1, 1]
 while len(str(fibonacci[-1])) < 1000:
-  fibonacci.append(fibonacci[-1] + fibonacci[-2])
+    fibonacci.append(fibonacci[-1] + fibonacci[-2])
 
-print(len(fibonacci))
+
+def answer():
+    return len(fibonacci)
+
+
+print(answer())
+
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

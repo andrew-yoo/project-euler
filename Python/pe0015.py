@@ -8,10 +8,12 @@
 # How many such routes are there through a 20×20 grid?
 # """
 import time
+
 t1 = time.perf_counter()
 
 
 import numpy as np
+
 
 def create_adjacency_matrix(rows, cols):
     total_nodes = rows * cols
@@ -23,14 +25,15 @@ def create_adjacency_matrix(rows, cols):
     for i in range(rows):
         for j in range(cols):
             current_node = find_index(i, j)
-            if j + 1 < cols: # Add right unless on rightmost edge
+            if j + 1 < cols:  # Add right unless on rightmost edge
                 right_node = find_index(i, j + 1)
                 adjacency_matrix[current_node, right_node] = 1
-            
-            if i + 1 < rows: # Add down unless on bottommost edge
+
+            if i + 1 < rows:  # Add down unless on bottommost edge
                 down_node = find_index(i + 1, j)
                 adjacency_matrix[current_node, down_node] = 1
     return adjacency_matrix
+
 
 def raise_power(adj_matrix, start_node, end_node, steps):
     total_routes = 0
@@ -40,21 +43,27 @@ def raise_power(adj_matrix, start_node, end_node, steps):
         total_routes += current_matrix[start_node, end_node]
     return total_routes
 
+
 # 20 x 20 grid = 21 x 21 nodes
 rows = 21
 cols = 21
 
 adj_matrix = create_adjacency_matrix(rows, cols)
 
-start_node = 0 # Starts at top left corner
-end_node = rows * cols - 1 # Ends at bottom right corner
+start_node = 0  # Starts at top left corner
+end_node = rows * cols - 1  # Ends at bottom right corner
 
-max_steps = (rows - 1) + (cols - 1) # Max steps = horizontal vertices + vertical vertices
+max_steps = (rows - 1) + (cols - 1)  # Max steps = horizontal vertices + vertical vertices
 
 # Raises matrix power - gets really slow for larger matrices
 total_routes = raise_power(adj_matrix, start_node, end_node, max_steps)
 
-print(total_routes)
+
+def answer():
+    return total_routes
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

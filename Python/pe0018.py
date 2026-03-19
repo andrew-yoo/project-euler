@@ -9,7 +9,7 @@
 # 7 4
 # 2 4 6
 # 8 5 9 3
-# 
+#
 # That is, 3 + 7 + 4 + 9 = 23
 # Find the maximum total from top to bottom of the triangle below:
 # 75
@@ -29,10 +29,11 @@
 # 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
 # """
 import time
+
 t1 = time.perf_counter()
 
 
-tri = [ # Python doesn't allow leading zeros (e.g. 4 instead of 04)
+tri = [  # Python doesn't allow leading zeros (e.g. 4 instead of 04)
     [75],
     [95, 64],
     [17, 47, 82],
@@ -47,16 +48,23 @@ tri = [ # Python doesn't allow leading zeros (e.g. 4 instead of 04)
     [70, 11, 33, 28, 77, 73, 17, 78, 39, 68, 17, 57],
     [91, 71, 52, 38, 17, 14, 91, 43, 58, 50, 27, 29, 48],
     [63, 66, 4, 68, 89, 53, 67, 30, 73, 16, 69, 87, 40, 31],
-    [4, 62, 98, 27, 23, 9, 70, 98, 73, 93, 38, 53, 60, 4, 23]]
+    [4, 62, 98, 27, 23, 9, 70, 98, 73, 93, 38, 53, 60, 4, 23],
+]
+
 
 def max_path(tri):
     copy = [list(row) for row in tri]
-    for a in range(len(copy) - 2, -1, -1): # Bottom (second-to-last) up
+    for a in range(len(copy) - 2, -1, -1):  # Bottom (second-to-last) up
         for b in range(len(copy[a])):
             copy[a][b] += max(copy[a + 1][b], copy[a + 1][b + 1])
-    return copy[0]
+    return copy[0][0]
 
-print(max_path(tri))
+
+def answer():
+    return max_path(tri)
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

@@ -18,10 +18,12 @@
 # What is the value of the first triangle number to have over five hundred divisors?
 # """
 import time
+
 t1 = time.perf_counter()
 
 
 import math
+
 
 def generate_triangular_numbers(number):
     triangular_numbers = []
@@ -29,7 +31,9 @@ def generate_triangular_numbers(number):
         triangular_numbers.append(int((x * (x + 1)) / 2))
     return triangular_numbers
 
-triangular_numbers = generate_triangular_numbers(12500) # Increase for larger min_divisor's
+
+triangular_numbers = generate_triangular_numbers(12500)  # Increase for larger min_divisor's
+
 
 def check_divisor(min_divisor, triangular_numbers):
     for item in triangular_numbers:
@@ -41,7 +45,12 @@ def check_divisor(min_divisor, triangular_numbers):
             return item
             break
 
-print(check_divisor(500, triangular_numbers))
+
+def answer():
+    return check_divisor(500, triangular_numbers)
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

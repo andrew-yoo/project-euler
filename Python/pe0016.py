@@ -8,17 +8,23 @@
 # What is the sum of the digits of the number 2^1000?
 # """
 import time
+
 t1 = time.perf_counter()
 
 
 def sum_of_digits(number):
-  number = str(number)
-  digits = []
-  for x in range(len(number)):
-    digits.append(int(number[x]))
-  return(sum(digits))
+    number = str(number)
+    digits = []
+    for x in range(len(number)):
+        digits.append(int(number[x]))
+    return sum(digits)
 
-sum_of_digits(2 ** 1000)
+
+def answer():
+    return sum_of_digits(2**1000)
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

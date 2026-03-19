@@ -5,26 +5,34 @@
 #
 # """
 # We shall say that an n-digit number is pandigital if it makes use of all the digits 1 to n exactly once. For example, 2143 is a 4-digit pandigital and is also prime.
-# 
+#
 # What is the largest n-digit pandigital prime that exists?
 # """
 import time
+
 t1 = time.perf_counter()
 
 
 import sympy
 from itertools import permutations
 
+
 def find_largest_pandigital_prime():
     for n in range(9, 0, -1):
-        digits = ''.join(str(i) for i in range(n, 0, -1))
+        digits = "".join(str(i) for i in range(n, 0, -1))
         for perm in sorted(permutations(digits), reverse=True):
-            num = int(''.join(perm))
+            num = int("".join(perm))
             if sympy.isprime(num):
                 # The first number should also be the largest
                 return num
 
-find_largest_pandigital_prime()
+
+def answer():
+    return find_largest_pandigital_prime()
+
+
+print(answer())
+
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

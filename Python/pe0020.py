@@ -9,12 +9,18 @@
 # Find the sum of the digits in the number 100!
 # """
 import time
+
 t1 = time.perf_counter()
 
 
 import math
 
-print(sum(int(digit) for digit in str(math.factorial(100))))
+
+def answer():
+    return sum(int(digit) for digit in str(math.factorial(100)))
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

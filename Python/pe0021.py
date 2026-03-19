@@ -12,7 +12,15 @@
 # Evaluate the sum of all the amicable numbers under 10000.
 # """
 import time
+
 t1 = time.perf_counter()
+
+
+def answer():
+    return
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

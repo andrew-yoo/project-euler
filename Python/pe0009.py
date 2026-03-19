@@ -10,11 +10,13 @@
 # There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc.
 # """
 import time
+
 t1 = time.perf_counter()
 
 
 import math
 import numpy as np
+
 
 def euclid_primitive_triples(limit):
     triples = []
@@ -31,8 +33,9 @@ def euclid_primitive_triples(limit):
         m += 1
     return triples
 
+
 def find_triple_with_sum(triples, target_sum):
-    for triple in triples: # Checks primitive triples
+    for triple in triples:  # Checks primitive triples
         if sum(triple) == target_sum:
             return triple
 
@@ -46,9 +49,15 @@ def find_triple_with_sum(triples, target_sum):
             scale_factor += 1
     return None  # No triples were found; in practice, can raise number of generated primitive roots
 
+
 solution = find_triple_with_sum(euclid_primitive_triples(100), 1000)
 
-print(np.prod(solution))
+
+def answer():
+    return np.prod(solution)
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

@@ -5,27 +5,32 @@
 #
 # """
 # A perfect number is a number for which the sum of its proper divisors is exactly equal to the number. For example, the sum of the proper divisors of 28 would be 1 + 2 + 4 + 7 + 14 = 28, which means that 28 is a perfect number.
-# 
+#
 # A number n is called deficient if the sum of its proper divisors is less than n and it is called abundant if this sum exceeds n.
-# 
+#
 # As 12 is the smallest abundant number, 1 + 2 + 3 + 4 + 6 = 16, the smallest number that can be written as the sum of two abundant numbers is 24. By mathematical analysis, it can be shown that all integers greater than 28123 can be written as the sum of two abundant numbers. However, this upper limit cannot be reduced any further by analysis even though it is known that the greatest number that cannot be expressed as the sum of two abundant numbers is less than this limit.
-# 
+#
 # Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
 # """
 import time
+
 t1 = time.perf_counter()
 
 
 import sympy
 
-def abundant_numbers(limit): # Create list of abundant numbers
+
+def abundant_numbers(limit):  # Create list of abundant numbers
     abundant_numbers_list = []
     for a in range(12, limit + 1):
         if sum(sympy.divisors(a)) > 2 * a:
             abundant_numbers_list.append(a)
     return abundant_numbers_list
 
-def is_not_sum_of_two_abundants(num, abundant_set): # Check if a number cannot be written as the sum of two abundant numbers
+
+def is_not_sum_of_two_abundants(
+    num, abundant_set
+):  # Check if a number cannot be written as the sum of two abundant numbers
     for b in abundant_set:
         if b >= num:
             break
@@ -33,13 +38,19 @@ def is_not_sum_of_two_abundants(num, abundant_set): # Check if a number cannot b
             return False
     return True
 
+
 abundant_set = set(abundant_numbers(28123))
 result = []
 for c in range(1, 28123 + 1):
-  if is_not_sum_of_two_abundants(c, abundant_set):
-    result.append(c)
+    if is_not_sum_of_two_abundants(c, abundant_set):
+        result.append(c)
 
-print(sum(result))
+
+def answer():
+    return sum(result)
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

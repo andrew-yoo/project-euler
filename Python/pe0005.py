@@ -8,25 +8,33 @@
 # What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 # """
 import time
+
 t1 = time.perf_counter()
 
 
 import math
 
+
 # Technically I think math.lcm exists, but that kind of defeats the point
-def lcm(x,y):
-  return(abs(x * y) // math.gcd(x,y))
+def lcm(x, y):
+    return abs(x * y) // math.gcd(x, y)
+
 
 def lcm_list(list):
-  temp = list[0]
-  final = 0
-  while final == 0:
-    for item in list:
-      temp = lcm(temp, item)
-    final = temp
-  print(final)
+    temp = list[0]
+    final = 0
+    while final == 0:
+        for item in list:
+            temp = lcm(temp, item)
+        final = temp
+    return final
 
-lcm_list([11,12,13,14,15,16,17,18,19,20]) # Ignoring redundant cases
+
+def answer():
+    return lcm_list([11, 12, 13, 14, 15, 16, 17, 18, 19, 20])  # Ignoring redundant cases
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

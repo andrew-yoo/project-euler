@@ -8,29 +8,36 @@
 # Find the largest palindrome made from the product of two 3-digit numbers.
 # """
 import time
+
 t1 = time.perf_counter()
 
 
 def check_palindrome(num):
-  num = str(num)
-  first_half = ""
-  second_half = ""
+    num = str(num)
+    first_half = ""
+    second_half = ""
 
-  if len(num) % 2 == 1:
-    num = num[:len(num)//2] + num[len(num)//2 +1:] # If length is odd, remove middle value
+    if len(num) % 2 == 1:
+        num = num[: len(num) // 2] + num[len(num) // 2 + 1 :]  # If length is odd, remove middle value
 
-  first_half = num[:len(num)//2 + len(num)%2]
-  second_half = num[len(num)//2 + len(num)%2:]
-  return(first_half == second_half[::-1]) # Returns a boolean
+    first_half = num[: len(num) // 2 + len(num) % 2]
+    second_half = num[len(num) // 2 + len(num) % 2 :]
+    return first_half == second_half[::-1]  # Returns a boolean
+
 
 palindromes = []
 
-for x in range(100, 1000): # Generate numbers
-  for y in range(100, 1000):
-    if check_palindrome(x * y) == True:
-      palindromes.append(x * y)
+for x in range(100, 1000):  # Generate numbers
+    for y in range(100, 1000):
+        if check_palindrome(x * y) == True:
+            palindromes.append(x * y)
 
-print(max(palindromes))
+
+def answer():
+    return max(palindromes)
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))

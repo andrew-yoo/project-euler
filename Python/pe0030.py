@@ -10,29 +10,36 @@
 # 9474 = 9^4 + 4^4 + 7^4 + 4^4
 # As 1 = 1^4 is not a sum it is not included.
 # The sum of these numbers is 1634 + 8208 + 9474 = 19316.
-# 
+#
 # Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
 # """
 import time
+
 t1 = time.perf_counter()
 
 
-def check_digit_power_sum(input_number,power):
+def check_digit_power_sum(input_number, power):
     digit_powers = []
     input_string = str(input_number)
     for digit in range(len(input_string)):
         digit_powers.append(int(input_string[digit]) ** power)
     if sum(digit_powers) == input_number:
-        return(True)
+        return True
     else:
-        return(False)
+        return False
+
 
 number_sum = 0
-for x in range(2,200000): # Upper bound can be adjusted
-    if check_digit_power_sum(x,5) == True:
+for x in range(2, 200000):  # Upper bound can be adjusted
+    if check_digit_power_sum(x, 5) == True:
         number_sum += x
 
-print(number_sum)
+
+def answer():
+    return number_sum
+
+
+print(answer())
 
 t2 = time.perf_counter()
 print(round(t2 - t1, 4))
