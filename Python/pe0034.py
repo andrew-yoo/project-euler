@@ -35,8 +35,10 @@ for x in range(10, 100000):  # Can be adjusted
     if check_curious(x):
         curious.add(x)
 
+
 def answer():
     return sum(curious)
+
 
 print(answer())
 
