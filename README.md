@@ -6,12 +6,14 @@ My solutions to the [Project Euler](https://projecteuler.net/) problems ([CC BY-
 
 Do not expect code to be particularly optimized or elegant: I do not edit code after solving problems, and I also use these problems to learn new languages.
 
-A checklist with runtimes can be found [here](https://github.com/and-yoo/ProjectEuler/blob/main/pe_runtimes_checklist.md).
+A checklist with runtimes can be found [here](pe_runtimes_checklist.md).
 
-Hashed numerical answers to the solved problems can be found [here](https://github.com/and-yoo/ProjectEuler/blob/main/pe_answers.md).
+Hashed numerical answers to the solved problems can be found [here](answers.csv).
 
 ## Disclaimer
 
+<details>
+<summary>Disclaimer</summary>
 This repository aims to comply with all applicable terms outlined under the Creative Commons BY-NC-SA 4.0 license, including sections 2(a)(1)(A)-(B) and 3(a)-(b). The solutions provided in this repository qualify as adaptations of the original material, as defined under Section 1(a), for the following reasons:
 
 * These solutions represent a transformation of the original problems through the application of independent problem-solving methods, including novel analysis, calculations, and coding implementations.
@@ -19,3 +21,4 @@ This repository aims to comply with all applicable terms outlined under the Crea
 * Such transformations produce new intellectual outputs that significantly add value to and alter the original material, thereby meeting the definition of "adapted material" under the license.
 
 While this repository endeavors to fulfill all legal obligations under the CC BY-NC-SA 4.0 License, it also recognizes Project Euler's stated preference against the public sharing of solutions. However, it is essential to consider the legacy of Leonhard Euler, the project's eponym, who was one of the most prolific mathematicians in history. Over his lifetime, Euler published over 850 papers and books—averaging around 800 pages per year—many of which included ideas (e.g., the totient function and natural logarithms) that are foundational to Project Euler problems. The discouragement of sharing solutions may inadvertently hinder the broader dissemination of knowledge and learning, a principle Euler passionately championed throughout his life. This repository strives to honor both the legal framework and the spirit of intellectual growth inspired by Euler’s legacy.
+</details>
