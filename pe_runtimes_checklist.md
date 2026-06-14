@@ -59,7 +59,7 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 54   | Poker Hands                                   |         |         |         |
 | 55   | Lychrel Numbers                               |         | 0.6571  |         |
 | 56   | Powerful Digit Sum                            |         | 0.4972  |         |
-| 57   | Square Root Convergents                       |         |         |         |
+| 57   | Square Root Convergents                       |         | 0.4520  |         |
 | 58   | Spiral Primes                                 |         |         |         |
 | 59   | XOR Decryption                                |         |         |         |
 | 60   | Prime Pair Sets                               |         |         |         |
