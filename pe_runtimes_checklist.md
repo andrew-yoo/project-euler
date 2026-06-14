@@ -57,7 +57,7 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 52   | Permuted Multiples                            |         | 0.4200  |         |
 | 53   | Combinatoric Selections                       |         | 0.0496  |         |
 | 54   | Poker Hands                                   |         |         |         |
-| 55   | Lychrel Numbers                               |         |         |         |
+| 55   | Lychrel Numbers                               |         | 0.6571  |         |
 | 56   | Powerful Digit Sum                            |         |         |         |
 | 57   | Square Root Convergents                       |         |         |         |
 | 58   | Spiral Primes                                 |         |         |         |
