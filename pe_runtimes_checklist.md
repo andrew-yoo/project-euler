@@ -55,7 +55,7 @@ The following runtime approximations (in seconds) are included to ensure that so
 | 50   | Consecutive Prime Sum                         |         | 2.3211  |         |
 | 51   | Prime Digit Replacements                      |         |         |         |
 | 52   | Permuted Multiples                            |         | 0.4200  |         |
-| 53   | Combinatoric Selections                       |         |         |         |
+| 53   | Combinatoric Selections                       |         | 0.0496  |         |
 | 54   | Poker Hands                                   |         |         |         |
 | 55   | Lychrel Numbers                               |         |         |         |
 | 56   | Powerful Digit Sum                            |         |         |         |
